@@ -28,17 +28,6 @@ Simple and modern layout
 2. Backend 
 3.Hosting
 
-## Run Frontend
-
-Open:
-
-frontend/index.html
-
-
-## Run Backend
-
-```bash
-npm install
-node backend/server.js
+## Run
 <img width="1254" height="1254" alt="57903" src="https://github.com/user-attachments/assets/c2ed6673-a619-485f-8b7d-decc2bf889c8" />
 
