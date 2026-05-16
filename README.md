@@ -40,3 +40,5 @@ frontend/index.html
 ```bash
 npm install
 node backend/server.js
+<img width="1254" height="1254" alt="57903" src="https://github.com/user-attachments/assets/c2ed6673-a619-485f-8b7d-decc2bf889c8" />
+
