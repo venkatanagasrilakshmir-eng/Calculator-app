@@ -10,10 +10,15 @@
 
 <div class="calculator">
 
-  <div class="display">
-    <input type="text" id="result" disabled>
+  <!-- Toggle Button -->
+  <div class="top-bar">
+    <button onclick="toggleMode()" id="modeBtn">🌙 Dark</button>
   </div>
 
+  <!-- Display -->
+  <input type="text" id="result" disabled>
+
+  <!-- Buttons -->
   <div class="buttons">
 
     <button onclick="clearResult()" class="clear">C</button>
