@@ -1,3 +1,4 @@
+# Calculator App
 A modern Full Stack Calculator Web Application built using HTML, CSS, JavaScript (Frontend) and Node.js + Express.js (Backend) with optional Firebase integration for data storage and deployment support.
 # Project Overview
 This project is a simple yet powerful calculator application that not only performs arithmetic operations but also stores calculation history using a backend API. It demonstrates full-stack development concepts including frontend UI design, backend API creation, and database integration readiness.
