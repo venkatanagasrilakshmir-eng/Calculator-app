@@ -24,9 +24,9 @@ Smooth button interactions
 Simple and modern layout
 
 ## Technologies Used
-### Frontend
-### Backend 
-### Hosting
+1. Frontend
+2. Backend 
+3.Hosting
 
 ## Run Frontend
 
