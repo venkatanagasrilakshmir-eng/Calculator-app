@@ -1,29 +1,34 @@
-<div class="calculator">
-  <... claculator output and keys go here ..>
-</div>
-<div class="calculator">
-  <div class="calculator__output">0</div>
-  <... claculator keys go here ..>
-</div>
-<div class="calculator">
-  <div class="calculator__output">0</div>
-  <div class="calculator__keys">
-    <button class="calculator__key calculator__key--operator">+</button>
-    <button class="calculator__key calculator__key--operator">-</button>
-    <button class="calculator__key calculator__key--operator">&times;</button>
-    <button class="calculator__key calculator__key--operator">÷</button>
-    <button class="calculator__key">7</button>
-    <button class="calculator__key">8</button>
-    <button class="calculator__key">9</button>
-    <button class="calculator__key">4</button>
-    <button class="calculator__key">5</button>
-    <button class="calculator__key">6</button>
-    <button class="calculator__key">1</button>
-    <button class="calculator__key">2</button>
-    <button class="calculator__key">3</button>
-    <button class="calculator__key">0</button>
-    <button class="calculator__key">.</button>
-    <button class="calculator__key">AC</button>
-    <button class="calculator__key calculator__key--enter">=</button>
-  </div>
-</div>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div id="calculator">
+        <input id="display" readonly>
+        <div id="keys">
+            <button onclick="appendToDisplay('+')">+</button>
+            <button onclick="appendToDisplay('7')">7</button>
+            <button onclick="appendToDisplay('8')">8</button>
+            <button onclick="appendToDisplay('9')">9</button>
+            <button onclick="appendToDisplay('-')">-</button>
+            <button onclick="appendToDisplay('4')">4</button>
+            <button onclick="appendToDisplay('5')">5</button>
+            <button onclick="appendToDisplay('6')">6</button>
+            <button onclick="appendToDisplay('*')">*</button>
+            <button onclick="appendToDisplay('1')">1</button>
+            <button onclick="appendToDisplay('2')">2</button>
+            <button onclick="appendToDisplay('3')">3</button>
+            <button onclick="appendToDisplay('/')">/</button>
+            <button onclick="appendToDisplay('0')">0</button>
+            <button onclick="appendToDisplay('.')">.</button>
+            <button onclick="calculate()">=</button>
+            <button onclick="clearDisplay()">C</button>
+        </div>
+    </div>
+  <script src="index.js"></script>
+</body>
+</html>
