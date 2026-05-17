@@ -1,0 +1,61 @@
+body{
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: hsl(0, 0%, 95%);
+}
+
+#calculator{
+    font-family: Arial, sans-serif;
+    background-color: hsl(0, 0%, 15%);
+    border-radius: 15px;
+    max-width: 500px;
+    overflow: hidden;
+}
+
+#display{
+    width: 100%;
+    padding: 20px;
+    font-size: 5rem;
+    text-align: left;
+    border: none;
+    background-color: hsl(0, 0%, 20%);
+}
+
+#keys{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 10px;
+}
+button {
+    background-color: hsl(0, 0%, 30%); /* Dark Gray */
+    color: white;
+    font-size: 3rem;
+    font-weight: bold;
+    cursor: pointer;
+    border: none;
+    padding: 10px;
+}
+
+button:hover {
+    background-color: hsl(0, 0%, 40%); /* Slightly Lighter Gray */
+}
+
+button:active {
+    background-color: hsl(0, 0%, 50%); /* Mid Gray on Click */
+}
+
+/* Operator Button Styles (+, -, *, /, =) */
+.operator-btn {
+    background-color: hsl(35, 100%, 55%); /* Bright Orange */
+}
+
+.operator-btn:hover {
+    background-color: hsl(35, 100%, 65%); /* Lighter Orange */
+}
+
+.operator-btn:active {
+    background-color: hsl(35, 100%, 75%); /* Soft Orange on Click */
+}
