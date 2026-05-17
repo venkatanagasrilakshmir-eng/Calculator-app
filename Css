@@ -10,3 +10,18 @@
 }
 .calculator__key--enter {
 }
+height: 10rem;
+display: grid;
+justify-content: center;
+align-items: center;
+.calculator {
+  max-inline-size: 22rem; /* This is the Logical Property for max-width and has very good browser support */
+}
+border-radius: 10px;
+overflow: hidden;
+.calculator {
+  max-inline-size: 22rem; /* This is the Logical Property for max-width and has very good browser support */
+  border-radius: 10px; /* Round the edges */
+  overflow: hidden; /* don't let other elements go outside the calculator */
+  box-shadow: 0px 3px 6px 0px rgba(0, 0, 0, 0.15), 0px 2px 4px 0px rgba(0, 0, 0, 0.12); /* Give the calculator some depth off the page */
+}
