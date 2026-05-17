@@ -1,33 +1,33 @@
 # Calculator App
-A modern Full Stack Calculator Web Application built using HTML, CSS, JavaScript (Frontend) and Node.js + Express.js (Backend) with optional Firebase integration for data storage and deployment support.
-# Project Overview
-This project is a simple yet powerful calculator application that not only performs arithmetic operations but also stores calculation history using a backend API. It demonstrates full-stack development concepts including frontend UI design, backend API creation, and database integration readiness.
-# Features
-1.Core Features
-Basic arithmetic operations (+, −, ×, ÷)
-Real-time calculation output
-Clean and responsive user interface
+A modern and responsive Calculator Web Application built using HTML, CSS, and JavaScript.
+This project performs basic arithmetic operations with a clean user interface and smooth user experience.
+# Project Overview:
+The Calculator App is a beginner-friendly front-end project designed to perform simple mathematical calculations efficiently. It features an attractive UI with responsive design, making it compatible across desktops, tablets, and mobile devices.
 
-2. History System
-Stores previous calculations
-Fetch history using backend API
-Clear history option (optional enhancement)
+# This project helped improve my skills in:
+Front-End Web Development
+DOM Manipulation
+JavaScript Functions
+Responsive UI Design
+Event Handling
 
-3 Features
-REST API integration (Express.js)
-Backend request handling
-Firebase-ready structure (for database or hosting)
+# Features:
+Addition, Subtraction, Multiplication, and Division
+Interactive and responsive user interface
+Clean button layout for better usability
+Real-time calculation display
+Clear (C) button functionality
+Lightweight and fast performance
+Mobile-friendly design
 
-4.UI/UX Features
-Mobile responsive design
-Smooth button interactions
-Simple and modern layout
+# Technologies Used:
+HTML5 – Structure of the application
+CSS – Styling and responsive design
+JavaScript – Calculator logic and interactivity
 
-## Technologies Used
-1. Frontend
-2. Backend 
-3.Hosting
+# Conclusion:
+This Calculator App demonstrates the fundamentals of front-end web development by combining structure, styling, and logic into a fully functional application. It is a simple yet effective project for showcasing web development skills on GitHub and in portfolios
+# app looks like:
+<img width="1037" height="1517" alt="58156" src="https://github.com/user-attachments/assets/395edbc3-15e7-4391-898e-de07f40cb9d9" />
 
-## Run
-<img width="1254" height="1254" alt="57903" src="https://github.com/user-attachments/assets/c2ed6673-a619-485f-8b7d-decc2bf889c8" />
 
